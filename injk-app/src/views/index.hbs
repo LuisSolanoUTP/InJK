@@ -1,0 +1,16 @@
+<div class="row">
+    {{#each memes}}
+        <div class="col-md-7 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title d-flex justify-content-between align-items-center">
+                        {{title}}
+                        </h4>
+                    <img src={{memelink}} width="100%">
+                    <br><br>
+                    Upload date: {{createdAt}}
+                </div>
+            </div>
+        </div>
+    {{/each}}
+</div>

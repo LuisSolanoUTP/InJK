@@ -23,5 +23,5 @@ var options = {
         console.log(names);
       });
     },
-    err => console.log('Mongoose Error: ${err}')
+    err => console.log(`Mongoose Error: ${err}`)
 );
